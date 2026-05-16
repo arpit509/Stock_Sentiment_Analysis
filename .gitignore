@@ -1,0 +1,71 @@
+# Environment & secrets
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+*.pkl
+*.pickle
+*.h5
+
+# ML model files (large — use HuggingFace Hub instead)
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# HuggingFace cache
+~/.cache/huggingface/
+.cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Coverage & testing
+.coverage
+htmlcov/
+.pytest_cache/
